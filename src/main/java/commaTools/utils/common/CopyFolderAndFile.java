@@ -1,18 +1,23 @@
 package commaTools.utils.common;
+
+import java.io.*;
+
 /**
- * 复制多级文件，包含文件夹下的文件和文件夹
  * @author comma
  * @version v1.0
+ * @date 2019.01.06
  * 复制文件分析：
  *    1、获取被复制文件的路径名称
  *    2、在目的地创建一个相同名称的文件
  *    3、复制数据
  */
-
-import java.io.*;
-
 public class CopyFolderAndFile {
-
+    /**
+     * 复制文件及文件夹下面的数据
+     * @param srcFile 被复制的文件或文件夹路径
+     * @param destFile 目的地路径
+     * @throws IOException
+     */
     public static void copyFolder(File srcFile,File destFile) throws IOException {
         //判断是否是文件夹
         if (srcFile.isDirectory()){
@@ -22,7 +27,7 @@ public class CopyFolderAndFile {
             //获取该File对象下所有的文件或者文件夹File对象
             File[] fileArray=srcFile.listFiles();
             for (File file:fileArray){
-                copyFolder(file,newFolder);
+                copyFolder(file,newFolder);//递归调用本身的方法
             }
         }else {
             //如果是文件
