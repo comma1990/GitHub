@@ -8,10 +8,14 @@
       <change afterPath="$PROJECT_DIR$/commatools/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/commatools/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/commatools/commatools.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commaTools/utils/common/HttpGetClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commaTools/utils/common/HttpPostClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commatools" beforeDir="false" afterPath="$PROJECT_DIR$/commatools" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commaTools/utils/common/GetDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commaTools/utils/common/GetDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commaTools/utils/common/HttpGetClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/commaTools/utils/comma/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/commaTools/utils/comma/JunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commaTools/utils/common/GetDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commaTools/utils/common/GetDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commaTools/utils/common/HttpGetClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/commaTools/utils/comma/JunitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/commaTools/utils/comma/JunitTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commaTools/utils/common/GetDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/commaTools/utils/comma/JunitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="406">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/commaTools/utils/common/HttpGetClient.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commaTools/utils/common/HttpPostClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="25">
+              <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,10 +160,11 @@
         <option value="$PROJECT_DIR$/src/main/java/commaTools/utils/common/RandomDataUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/commaTools/utils/common/MathUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/commaTools/utils/common/GetRandomNameOrPassword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/commaTools/utils/common/GetDate.java" />
         <option value="$PROJECT_DIR$/src/main/java/commaTools/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/commaTools/utils/common/CopyFolderAndFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/commaTools/utils/comma/GetDateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commaTools/utils/common/GetDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commaTools/utils/common/HttpGetClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/commaTools/utils/comma/JunitTest.java" />
       </list>
     </option>
@@ -160,10 +177,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547389963913" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547394410285" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -282,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HttpGetClient">
+  <component name="RunManager" selected="JUnit.JunitTest.HttpPostClient">
     <configuration name="HttpGetClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="commaTools.utils.common.HttpGetClient" />
       <module name="GitHub" />
@@ -292,20 +309,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GitHub" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="commaTools.utils.comma.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="commaTools.utils.comma" />
-      <option name="MAIN_CLASS_NAME" value="commaTools.utils.comma.GetDateTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -320,6 +323,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="commaTools.utils.comma" />
       <option name="MAIN_CLASS_NAME" value="commaTools.utils.comma.JunitTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.HttpPostClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commaTools.utils.comma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="commaTools.utils.comma" />
+      <option name="MAIN_CLASS_NAME" value="commaTools.utils.comma.JunitTest" />
+      <option name="METHOD_NAME" value="HttpPostClient" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTest.HttpPostClient" />
         <item itemvalue="Application.HttpGetClient" />
         <item itemvalue="JUnit.JunitTest.mathUtils" />
         <item itemvalue="JUnit.JunitTest" />
         <item itemvalue="JUnit.JunitTest.randomDateUtilsTest" />
-        <item itemvalue="JUnit.GetDateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +402,7 @@
       <workItem from="1546936908926" duration="2674000" />
       <workItem from="1547097803717" duration="596000" />
       <workItem from="1547198388770" duration="616000" />
-      <workItem from="1547387825372" duration="2435000" />
+      <workItem from="1547387825372" duration="4355000" />
     </task>
     <servers />
   </component>
@@ -412,12 +431,15 @@
     <history-entry file="JunitTest_mathUtils - 2019.01.08 at 17h 12m 15s.xml">
       <configuration name="JunitTest.mathUtils" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JunitTest_HttpPostClient - 2019.01.13 at 23h 44m 53s.xml">
+      <configuration name="JunitTest.HttpPostClient" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13306000" />
+    <option name="totallyTimeSpent" value="15226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
@@ -429,7 +451,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32848233" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34273317" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,16 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="302" selection-start-line="302" selection-end-line="302" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commaTools/utils/common/GetDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,10 +557,10 @@
     <entry file="file://$PROJECT_DIR$/HttpGetClient.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commaTools/utils/common/HttpGetClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/commaTools/utils/common/GetDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -557,8 +569,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/commaTools/utils/comma/JunitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="406">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commaTools/utils/common/HttpPostClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

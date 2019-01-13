@@ -13,8 +13,14 @@ package commaTools.utils.comma;
 import commaTools.utils.common.GetDate;
 import commaTools.utils.common.MathUtils;
 import commaTools.utils.common.RandomDataUtils;
+import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import static commaTools.utils.common.HttpPostClient.getHttpResponse;
 
 public class JunitTest {
     /**
@@ -51,4 +57,12 @@ public class JunitTest {
         System.out.println(randomDataUtils.getRandomLongNumber(10000,100000));
     }
 
+
+    @Test
+    public void HttpPostClient() throws MalformedURLException {
+        URL url=new URL("http://renterapp.yuyanfd.com/recommend/getEstateNearbyHouse.rest");
+        JSONObject object=new JSONObject();
+        object.put("rentId","1695");
+        System.out.println(getHttpResponse(url,object));
+    }
 }

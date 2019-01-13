@@ -20,6 +20,12 @@ public class GetDate {
         return dateNow;
     }
 
+    public static String getTimesTamp() {
+        long time = System.currentTimeMillis();
+        String s = String.valueOf(time);
+        return s;
+    }
+
     public static void main(String[] args) {
         System.out.println(getNowDate());
     }
